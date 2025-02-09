@@ -1,5 +1,5 @@
 # Usa una imagen base de Node.js con la versión LTS (Long Term Support)
-FROM node:18-alpine as build-stage
+FROM node:22.12.0-alpine3.19 as build-stage
 
 # Establece el directorio de trabajo dentro del contenedor
 WORKDIR /app
